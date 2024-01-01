@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white
+}
+header{
+    height: 56px;
+    width: 100%;
+    background-color: rgb(16, 16, 16);
+
+}
+/* header div 1 */
+.navbar{
+    height: 56px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-right: 100px;
+    
+}
+/* box 1 */
+.nav-menu{
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+}
+.menu-icon{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.menu-icon:hover{
+    background-color: rgb(64, 62, 62);
+}
+/* box 2 */
+.nav-logo{
+    height: 56px;
+    width:120px ;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo{
+    height: 20px;
+    width: 90px;
+    background-image: url("logo1.png");
+    background-size: cover;
+    /* background-color: red; */
+    padding: 18px 14px 18px 16px;
+    margin-right: 100px;
+    flex: none;
+    cursor: pointer;
+}
+
+/* box 3 */
+
+.nav-input{
+    display: flex;
+    justify-content: flex-start;
+    
+    /* border: none; */
+    height: 40px;
+    width: 600px;
+    border-radius: 25px;
+}
+.search-input{
+    height: 100%;
+    width: 90%;
+    border: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding-left: 5%;
+    background-color: rgb(9, 9, 9);
+    color: white;
+    
+}
+.input-button{
+    height: 100%;
+    width: calc(100% - 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(23, 23, 23);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: medium;
+    cursor: pointer;
+}
+.input-button:hover{
+    background-color: rgb(64, 62, 62);
+}
+.nav-mic{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mic{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(23, 23, 23);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.mic:hover{
+    background-color: rgb(64, 62, 62);
+}
+.nav-notify{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.notify-icon{
+    height: 100%;
+    width: 100%;
+    
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.notify-icon:hover{
+    background-color: rgb(64, 62, 62);
+}
+.nav-profile{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(23, 23, 23);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.profile:hover{
+    background-color: rgb(64, 62, 62);
+}
+.left-element{
+    background-color: rgb(17, 16, 16);
+    width: 64px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 56px;
+    z-index: -1;
+    border: none;
+}
+.box{
+    height: 74px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.home{
+    margin-top: 10px;
+}
+.box:hover{
+    background-color: rgb(53, 52, 52);
+    border:  solid white;
+    border: initial;
+    border-radius: 10px;
+}
+.panel{
+    background-color: rgb(17, 16, 16);
+    height: 56px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-left: 64px;
+    left: 64px;
+    
+}
+.pbox{
+    background-color: rgb(53, 52, 52);
+    color: white;
+    font-size: small;
+    height: 32px;
+    width:50px ;
+    margin: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+.pbox:hover{
+    background-color: white;
+    color: black;
+}
